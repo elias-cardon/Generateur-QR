@@ -1,0 +1,30 @@
+body {
+    background: #c2e59c; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+input[type="text"] {
+    border: 2px solid #0b75b9;
+    border-radius: 4px;
+    height: 40px;
+    width: 400px;
+    color: #0b75b9;
+    outline-color: #ffd662ff;
+}
+
+input[type="button"] {
+    border: 2px solid #0b75b9;
+    border-radius: 4px;
+    height: 30px;
+    width: 130px;
+    color: white;
+    margin-top: 20px;
+    background-color: #0b75b9;
+    outline-color: #ffd662ff;
+}
